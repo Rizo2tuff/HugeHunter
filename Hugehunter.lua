@@ -1,13 +1,13 @@
 local StarterGui = game:GetService("StarterGui")
 
 StarterGui:SetCore("SendNotification", {
-    Title = "HugeHunter Activated"; -- 
+    Title = "Titanic Hunter"; -- 
     Text = "Success"; -- 
     Duration = 5; --
 })
 
 local message = require(game.ReplicatedStorage.Library.Client.Message)
-    message.Error("HUGE HUNTER")
+    message.Error("Titanic Hunter")
 Directory = require(game:GetService("ReplicatedStorage").Library.Directory)
 
 function changePetAttributes()
